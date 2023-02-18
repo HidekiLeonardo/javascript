@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro progama</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: white;
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat. Molestiae nostrum tenetur exercitationem, neque expedita earum eum, quia ex ab distinctio laborum? Reprehenderit tempora natus harum vel aut dolorum!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um numero: ')) // String -> Number
+        var n2 = Number(window.prompt('Digite outro número: ')) // String -> Number
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação+Numero -> String == String(s) ou toString()
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // s.lenght 'quantos caracteres a string tem'
+        // s.toUpperCase() 'MAIÚSCULAS'
+        // s.toLowerCase() 'minúsculas'
+    </script>
+</body>
+</html>
